@@ -25,6 +25,7 @@ env:
   - REQUIREMENTS=lowest
   - REQUIREMENTS=release DEPLOY=true
   - REQUIREMENTS=devel
+  - EXTRAS=werkzeug==0.14
 
 python:
   - "2.7"
